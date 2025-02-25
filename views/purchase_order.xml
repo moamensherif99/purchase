@@ -9,7 +9,7 @@
             </xpath>
             <xpath expr="//header/button[@name='button_confirm']" position="attributes">
                 <attribute name="invisible">state != 'waiting'</attribute>
-                <attribute name="groups">purchase.purchase_order_form</attribute>
+                <attribute name="groups">purchase.group_purchase_manager</attribute>
             </xpath>
             <xpath expr="//header/button[@name='button_cancel']" position="attributes">
                 <attribute name="invisible">state not in ['draft', 'to approve', 'sent', 'waiting','purchase'] or not id </attribute>
